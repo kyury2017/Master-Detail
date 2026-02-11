@@ -53,9 +53,8 @@ Command Timeout = 0"*
 ![App.config](config.jpg)
 
 # ----------------------------------------------------------------------------------  
-<video width="1280" height="720" controls>
-  <source src="movi.mp4" type="video/mp4">
-</video>
+[![video](vidio.jpg)](movi.mp4)
+
 
 
 
