@@ -1,0 +1,18 @@
+USE [master]
+GO
+CREATE LOGIN [user2] WITH PASSWORD=N'12345', DEFAULT_DATABASE=[MasterDetails1], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+use [master];
+GO
+USE [MasterDetails1]
+GO
+CREATE USER [user2] FOR LOGIN [user2]
+GO
+USE [MasterDetails1]
+GO
+ALTER USER [user2] WITH DEFAULT_SCHEMA=[user2], LOGIN=[user2]
+GO
+USE [MasterDetails1]
+GO
+CREATE SCHEMA [user2] AUTHORIZATION [user2]
+GO

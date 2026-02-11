@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Shell));
             bindingSource = new BindingSource(components);
             dataGridViewDoc = new DataGridView();
@@ -83,6 +85,8 @@
             // 
             dataGridViewDoc.AllowUserToAddRows = false;
             dataGridViewDoc.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(224, 224, 224);
+            dataGridViewDoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewDoc.AutoGenerateColumns = false;
             dataGridViewDoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewDoc.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, numberDataGridViewTextBoxColumn, dateDataGridViewTextBoxColumn, sumDataGridViewTextBoxColumn, noteDataGridViewTextBoxColumn });
@@ -136,6 +140,8 @@
             // 
             dataGridViewSpec.AllowUserToAddRows = false;
             dataGridViewSpec.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(224, 224, 224);
+            dataGridViewSpec.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             dataGridViewSpec.AutoGenerateColumns = false;
             dataGridViewSpec.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewSpec.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn1, masterViewIdDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, sumDataGridViewTextBoxColumn1 });
