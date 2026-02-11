@@ -55,7 +55,6 @@ Command Timeout = 0"*
 # ----------------------------------------------------------------------------------  
 ![video](vidio.jpg)](https://github.com/kyury2017/Master-Detail/blob/master/movi.mp4)
 
-[![video](https://github.com/kyury2017/Master-Detail/blob/master/vidio.jpg)](https://github.com/kyury2017/Master-Detail/blob/master/movi.mp4)
 
 
 
