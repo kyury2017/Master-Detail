@@ -19,12 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{7029
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWinForms", "ClientWinForms\ClientWinForms.csproj", "{14F9F16A-9FE2-4428-99C2-22122EB76286}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{C6EDC980-40CD-48D5-9ADC-0116C77E06A6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Documents\SQL Server Management Studio 22\1_CreateDB.sql = ..\..\..\Documents\SQL Server Management Studio 22\1_CreateDB.sql
-		..\..\..\Documents\SQL Server Management Studio 22\2_CreateUserServer.sql = ..\..\..\Documents\SQL Server Management Studio 22\2_CreateUserServer.sql
-		..\..\..\Documents\SQL Server Management Studio 22\3_CreateRoleDB.sql = ..\..\..\Documents\SQL Server Management Studio 22\3_CreateRoleDB.sql
-		..\..\..\Documents\SQL Server Management Studio 22\4_AddUserInRole.sql = ..\..\..\Documents\SQL Server Management Studio 22\4_AddUserInRole.sql
+		DB\1_CreateDB.sql = DB\1_CreateDB.sql
+		DB\2_CreateUserServer.sql = DB\2_CreateUserServer.sql
+		DB\3_CreateRoleDB.sql = DB\3_CreateRoleDB.sql
+		DB\4_AddUserInRole.sql = DB\4_AddUserInRole.sql
 	EndProjectSection
 EndProject
 Global
