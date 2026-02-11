@@ -52,9 +52,9 @@ Command Timeout = 0"*
 В файле ..\Master-Detail\ClientWinForms\App.config  
 ![App.config](config.jpg)
 
-# ----------------------------------------------------------------------------------  
-![video](vidio.jpg)](https://github.com/kyury2017/Master-Detail/blob/master/movi.mp4)
+### Ссылка на видио:  
 
+https://github.com/kyury2017/Master-Detail/blob/master/movi.mp4
 
 
 
