@@ -53,7 +53,7 @@ Command Timeout = 0"*
 ![App.config](config.jpg)
 
 # ----------------------------------------------------------------------------------  
-[![video](vidio.jpg)](movi.mp4)
+[![video](vidio.jpg)]movi.mp4](https://github.com/kyury2017/Master-Detail/blob/master/movi.mp4)
 
 
 
