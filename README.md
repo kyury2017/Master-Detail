@@ -1,34 +1,34 @@
 # Master-Detail
 
-## Програмное обеспечение:
+## РџСЂРѕРіСЂР°РјРЅРѕРµ РѕР±РµСЃРїРµС‡РµРЅРёРµ:
 1. Windows 11 pro
 2. [Visual Studio Enterprise 2022](https://visualstudio.microsoft.com/ru/vs/older-downloads/)
 3. [Microsoft SQL Server Standard Developer (64-bit)](https://go.microsoft.com/fwlink/?linkid=2344711&clcid=0x409&culture=en-us&country=us)
 4. [SQL Server Management Studio 22](https://aka.ms/ssms/22/release/vs_SSMS.exe)
 5. [.NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
-### База данных
-Схема:  
-![Схема базы данных - Master-Detail](db.jpg)  
-Скрипты создания базы данных находятся в папке проекта "DB":  
-	1. 1_CreateDB.sql (Создание базы данных)  
-	2. 2_CreateUserServer (Создать имя входа на sql сервер).  
-	3. 3_CreateRoleDB (Создать группу в бд Master-Detail).  
-	4. 4_AddUserInRole (Создать прользователя бд и добавть его в группу бд)  
-### Прилжение
-#### Диаграммa классов сущностей БД:
-![Диаграмма классов](ClassDiagrame.jpg)
+### Р‘Р°Р·Р° РґР°РЅРЅС‹С…
+РЎС…РµРјР°:  
+![РЎС…РµРјР° Р±Р°Р·С‹ РґР°РЅРЅС‹С… - Master-Detail](db.jpg)  
+РЎРєСЂРёРїС‚С‹ СЃРѕР·РґР°РЅРёСЏ Р±Р°Р·С‹ РґР°РЅРЅС‹С… РЅР°С…РѕРґСЏС‚СЃСЏ РІ РїР°РїРєРµ РїСЂРѕРµРєС‚Р° "DB":  
+	1. 1_CreateDB.sql (РЎРѕР·РґР°РЅРёРµ Р±Р°Р·С‹ РґР°РЅРЅС‹С…)  
+	2. 2_CreateUserServer (РЎРѕР·РґР°С‚СЊ РёРјСЏ РІС…РѕРґР° РЅР° sql СЃРµСЂРІРµСЂ).  
+	3. 3_CreateRoleDB (РЎРѕР·РґР°С‚СЊ РіСЂСѓРїРїСѓ РІ Р±Рґ Master-Detail).  
+	4. 4_AddUserInRole (РЎРѕР·РґР°С‚СЊ РїСЂРѕР»СЊР·РѕРІР°С‚РµР»СЏ Р±Рґ Рё РґРѕР±Р°РІС‚СЊ РµРіРѕ РІ РіСЂСѓРїРїСѓ Р±Рґ)  
+### РџСЂРёР»Р¶РµРЅРёРµ
+#### Р”РёР°РіСЂР°РјРјa РєР»Р°СЃСЃРѕРІ СЃСѓС‰РЅРѕСЃС‚РµР№ Р‘Р”:
+![Р”РёР°РіСЂР°РјРјР° РєР»Р°СЃСЃРѕРІ](ClassDiagrame.jpg)
 
-#### Сервис:
+#### РЎРµСЂРІРёСЃ:
 ![Swagger](WebApp.jpg)
-#### Клиент:
+#### РљР»РёРµРЅС‚:
 C#,Windows forms
 ![Swagger](ClientWF.jpg)
-### Настройки проекта:
+### РќР°СЃС‚СЂРѕР№РєРё РїСЂРѕРµРєС‚Р°:
 
-#### Подключение к базе данных: 
-В файле ..\Master-Detail\Data\MasterDetailsContext.cs
-Изменить строку подключения.
+#### РџРѕРґРєР»СЋС‡РµРЅРёРµ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С…: 
+Р’ С„Р°Р№Р»Рµ ..\Master-Detail\Data\MasterDetailsContext.cs
+РР·РјРµРЅРёС‚СЊ СЃС‚СЂРѕРєСѓ РїРѕРґРєР»СЋС‡РµРЅРёСЏ.
 
   
 optionsBuilder.UseSqlServer(    
@@ -44,12 +44,12 @@ TrustServerCertificate = True;
 Command Timeout = 0"*  
 );
 
-#### Настройка веб сервиса:
-В файле ..\Master-Detail\WebApp\Properties\launchSettings.json
-Изменить параметр   
+#### РќР°СЃС‚СЂРѕР№РєР° РІРµР± СЃРµСЂРІРёСЃР°:
+Р’ С„Р°Р№Р»Рµ ..\Master-Detail\WebApp\Properties\launchSettings.json
+РР·РјРµРЅРёС‚СЊ РїР°СЂР°РјРµС‚СЂ   
 ```"applicationUrl": "http://localhost:5000",```  
-#### Настройка Клиента:
-В файле ..\Master-Detail\ClientWinForms\App.config  
+#### РќР°СЃС‚СЂРѕР№РєР° РљР»РёРµРЅС‚Р°:
+Р’ С„Р°Р№Р»Рµ ..\Master-Detail\ClientWinForms\App.config  
 ![App.config](config.jpg)
 
 # ----------------------------------------------------------------------------------  
